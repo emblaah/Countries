@@ -13,26 +13,47 @@ body {
 
 .countries_header {
     background-color:blueviolet;
-    color: red;
+    color: whitesmoke;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
 }
 
 .menu {
-    background-color:grey;
+    background-color:lightcoral;
     list-style: none;
     padding: 30px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.menu li {
+    margin-bottom: 40px;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+ul.menu li:hover {
+    background-color: yellow;
+}
+
+ul.menu li a:hover {
+    font-weight: bold;
+}
+
 .information {
     background-color:black;
     color: burlywood;
     padding: 50px;
-    grid-template-columns: 90% 10%;
+
 }
 
 main { 
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 20% 80%;
 }
 
 img {
@@ -41,7 +62,7 @@ img {
 
 footer {
     clear: both;
-    background-color:chocolate;
+    background-color: blueviolet;
     color: whitesmoke;
     text-align: center;
     padding: 10px;
