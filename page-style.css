@@ -15,7 +15,7 @@ body {
     background-color:blueviolet;
     color: red;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menu {
@@ -27,7 +27,7 @@ body {
     background-color:black;
     color: burlywood;
     padding: 50px;
-
+    grid-template-columns: 90% 10%;
 }
 
 main { 
